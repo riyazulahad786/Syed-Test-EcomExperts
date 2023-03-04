@@ -293,5 +293,8 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+<!-- Active Cart Code Start -->
+{{ 'https://www.activecartapp.com/activecart/assets/js/activecart.js' | script_tag }}
+<!-- Active Cart Code End --></body>
 </html>
